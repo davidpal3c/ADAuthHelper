@@ -19,9 +19,9 @@ def main():
     loggedInUser = username if isValid(username, domain, password) else ""
 
     if loggedInUser:
-        print("Here are the Springfield Trade Secrets: ")
+        print("User Authentication Success")
     else:
-        print("Springfield Trade Secrets are for residents of Springfield only.")
+        print(f"There was an error authenticating '{username}'. Please try again.")
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
