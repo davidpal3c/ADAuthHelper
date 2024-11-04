@@ -1,10 +1,9 @@
-﻿#ADAuthHelper
 
 
 
-# ADAuthManager
+# Active Directory script
 
-ADAuthManager is a tool for authenticating users and checking group memberships in an Active Directory environment using LDAP and Win32 libraries.
+Tool for authenticating users and checking group memberships in an Active Directory environment using LDAP and Win32 libraries.
 
 ## Features
 - User authentication against Active Directory
