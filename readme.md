@@ -1,7 +1,7 @@
 
 
 
-# Active Directory script
+# Active Directory Auth script
 
 Tool for authenticating users and checking group memberships in an Active Directory environment using LDAP and Win32 libraries.
 
